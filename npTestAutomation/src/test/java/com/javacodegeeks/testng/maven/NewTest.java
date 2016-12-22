@@ -26,8 +26,6 @@ public class NewTest {
 	  driver.manage().window().maximize();
 	  
   }
-
-
   
   @Test
   public void createApplication() {
