@@ -41,13 +41,15 @@ private static WebElement element = null;
 		 
 		    }
 	 
-	//Employer portal email
+	//TODO Employer portal email
 	
-	//Employer Login button
+	//TODO Employer Login button
 	 
-	//Employer Get link button
+	//TODO Employer Get link button
 	 
-	//Employer register button 
+	//TODO Employer register button 
+	 
+	//TODO Employer reset password link 
 	 
 	//Employee Icon
 	    
@@ -59,24 +61,51 @@ private static WebElement element = null;
 		 
 		    }
 		 
-		//Adviser Icon
-		    
-		 public static WebElement adviser_icon(WebDriver driver){
+	//TODO Employee	reg number/legal/trade 
 		 
-		    element = driver.findElement(By.xpath("//*[@id='primary']/div[2]/div[1]/div/dl/dd[3]/a/i"));
+	//TODO Employee Captcha i'm not a robot
+	
+	//TODO Get link button	 
 		 
-		    return element;
 		 
-		    }
-		 
-		//Payroll Bureau Icon
-		    
-		 public static WebElement bureau_icon(WebDriver driver){
-		 
-		    element = driver.findElement(By.xpath("//*[@id='primary']/div[2]/div[1]/div/dl/dd[4]/a/i"));
-		 
-		    return element;
-		 
-		    }
+	//Adviser Icon
+	    
+	 public static WebElement adviser_icon(WebDriver driver){
+	 
+	    element = driver.findElement(By.xpath("//*[@id='primary']/div[2]/div[1]/div/dl/dd[3]/a/i"));
+	 
+	    return element;
+	 
+	    }
+	 
+	//TODO Adviser portal email
+	 
+	//TODO Adviser portal password 
+	
+	//TODO Adviser Login button
+	 
+	//TODO Adviser Reset your password link  
+	
+	//TODO Adviser register button  
+	 
+	//Payroll Bureau Icon
+	    
+	 public static WebElement bureau_icon(WebDriver driver){
+	 
+	    element = driver.findElement(By.xpath("//*[@id='primary']/div[2]/div[1]/div/dl/dd[4]/a/i"));
+	 
+	    return element;
+	 
+	    }
+	 
+	//TODO Bureau portal email
+	 
+	//TODO Bureau portal password 
+	
+	//TODO Bureau Login button
+	 
+	//TODO Bureau Reset your password link  
+	
+	//TODO Bureau register button  
 
 }
